@@ -1,0 +1,39 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+food/dist
+food/tmp
+food/out-tsc
+
+# dependencies
+food/node_modules
+
+# IDEs and editors
+food/.idea
+food.project
+food.classpath
+food.c9/
+food*.launch
+food.settings/
+food*.sublime-workspace
+
+# IDE - VSCode
+food.vscode/*
+food!.vscode/settings.json
+food!.vscode/tasks.json
+food!.vscode/launch.json
+food!.vscode/extensions.json
+
+# misc
+food/.sass-cache
+food/connect.lock
+food/coverage
+food/libpeerconnection.log
+foodnpm-debug.log
+foodyarn-error.log
+foodtestem.log
+food/typings
+
+# System Files
+food.DS_Store
+foodThumbs.db
